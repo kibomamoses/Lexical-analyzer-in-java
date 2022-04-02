@@ -1,0 +1,20 @@
+$After you get an error message (like: ? below), 
+$comment the line (like: $?) and try 
+$ the scanner for the next error message.
+$ The next error is on: @ that you need to change it to: $@
+$ When you comment both the: ? and @ the output of your lexer
+$ should be what I showed in the project document. 
++  -  *  /  \  <  =  >  := []
+-> &  |  (  )  [  ]  ,  .  ;  ~
+
+0  32767 $ Reserved words
+$?
+array begin boolean call  const do false
+fi  end if integer  od  proc  read  skip
+true  write
+$@
+abcdefghijklmnopqrstuvwxyz0123456789
+ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+DN_A  a12  ac  DN_A  a12  ac AC
+
+
